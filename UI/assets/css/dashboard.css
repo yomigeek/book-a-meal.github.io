@@ -2,7 +2,6 @@
 html {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 } 
 
 body {
@@ -11,7 +10,6 @@ body {
     background-color: #fff;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     
   }
 
@@ -47,7 +45,9 @@ body {
     border-radius: 8px;
     background-color: #89ad05;
     color: #f4f4f4;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 15px 5px 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   
   }
   .walletTitle{
@@ -319,33 +319,36 @@ iPad 3
   }
 
   input[type="text"] , input[type="password"],  input[type="number"],select, input[type="file"]{
-    display: inline-block;
-    border: none;
-    background: #f5f6f8;
     width: 100%;
-    height: 42px;
-    margin-top: 25px;
-    border: 1px #ddd solid;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   textarea{
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
-    border: none;
-    background: #f5f6f8;
-    width: 100%;
-    margin-top: 25px;
-    border: 1px #ddd solid;
-    color: #404040;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   input[type="date"] {
+     width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
     display: inline-block;
-    border: none;
-    background: #f5f6f8;
-    width: 200px;
-    height: 32px;
-    margin-top: 25px;
-    border: 1px #ddd solid;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   .dateSortButton  {
@@ -360,6 +363,8 @@ iPad 3
     border-color: #d8d8d8 #d1d1d1 #c3c3c3;
     border-radius: 2px;
     cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   textarea:focus {
@@ -427,7 +432,8 @@ iPad 3
     text-align: center;
     text-shadow: 0 1px rgba(white, 0.5);
     background: #fff;
-    border: 1px solid;
+    border: 1px solid
+    ;
     border-color: #d8d8d8 #d1d1d1 #c3c3c3;
     border-radius: 45px;
     cursor: pointer;
@@ -567,8 +573,14 @@ iPad 3
   background-color: white;
   padding: 10px;
   margin-bottom: 7px;
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+.menu-list > div:hover {
+
+  background-color: #89ad05;
+  color: #fff;
+}
 
 .menu-days-list { 
   margin: 0 auto;
@@ -596,6 +608,14 @@ iPad 3
   background-color: white;
   padding: 5px 10px 70px 20px;
   margin-bottom: 7px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.menu-days-list > div:hover {
+
+  background-color: #89ad05;
+  color: #fff;
 }
 
 .meal-list { 
@@ -610,6 +630,8 @@ iPad 3
   padding-left: 1px;
   padding-right: 1px;
   /* display: none; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
 }
 
@@ -626,25 +648,23 @@ iPad 3
 }
 .orderDateForm { 
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   background: #f4f4f4;
   border-radius: 8px;
   font-size: 12px;
-  padding-bottom: 11px; 
-  padding-top: 1px;
-  padding-left: 1px;
-  padding-right: 1px;
+ 
 
 }
 
 .earnings-list { 
   margin: 0 auto;
   width: 80%;
-  padding: 25px;
+  padding: 10px 10px 45px 10px;
   background: #f4f4f4;
   border-radius: 8px;
   font-weight: bold;
   font-size: 15px;
+
 }
 
 .earnings-list > div {
@@ -664,6 +684,8 @@ iPad 3
   background-color: white;
   padding: 10px;
   margin-bottom: 7px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .dashboardMenuImages {
